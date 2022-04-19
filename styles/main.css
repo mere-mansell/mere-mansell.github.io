@@ -7,3 +7,11 @@ p {
   background-color: rgb(128, 79, 0);
   margin-bottom: -17px;
 }
+
+.montfont {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.brown-text {
+color:rgb(128, 79, 0);
+}
