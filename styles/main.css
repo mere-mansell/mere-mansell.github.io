@@ -15,3 +15,7 @@ p {
 .brown-text {
 color:rgb(128, 79, 0);
 }
+
+.madifont {
+  font-family: 'Ms Madi', cursive;
+}
