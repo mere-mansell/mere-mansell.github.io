@@ -61,6 +61,16 @@ nav ul li a {
   text-align: end;
 }
 
+#me {
+  border-color: rgb(128, 79, 0);
+  border-style: solid;
+  border-width: 30px;
+}
+
+#me img {
+  height: 400px;
+  display: inline;
+}
 
 .montfont {
   font-family: 'Montserrat', sans-serif;
