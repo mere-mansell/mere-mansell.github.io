@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background-color: #f5f5f4;
+  font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -44,11 +45,7 @@ nav ul li a {
   
 }
 
-p {
-  text-align: center;
-  background-color: rgb(128, 79, 0);
-  margin-bottom: -17px;
-}
+
 
 .montfont {
   font-family: 'Montserrat', sans-serif;
