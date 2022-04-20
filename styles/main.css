@@ -15,7 +15,7 @@ header {
   font-size: 48px;
 }
 
-#blog {
+#blogtitle {
   font-family: 'Ms Madi', cursive;
   color: rgb(128, 79, 0);
   font-size: 48px;
@@ -81,6 +81,7 @@ nav ul li a {
 #blogs {
   text-align: center;
   padding: 70px 0 70px 0;
+  color: black;
 }
 
 #blogs ul {
@@ -88,6 +89,14 @@ nav ul li a {
   display: inline-block;
   text-align: left;
   font-size: 18px;
+}
+
+#blogs ul li {
+  color: black;
+}
+
+#blogs ul li a {
+  color: black;
 }
 
 .montfont {
