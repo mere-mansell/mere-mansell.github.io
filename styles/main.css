@@ -61,6 +61,11 @@ nav ul li a {
   text-align: end;
 }
 
+#about {
+  text-align: center;
+  padding: 70px 0 70px 0;
+}
+
 #me {
   border-color: rgb(128, 79, 0);
   border-style: solid;
