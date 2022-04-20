@@ -64,6 +64,7 @@ nav ul li a {
 #about {
   text-align: center;
   padding: 70px 0 70px 0;
+  font-size: 18px;
 }
 
 #me {
@@ -75,6 +76,18 @@ nav ul li a {
 #me img {
   height: 400px;
   display: inline;
+}
+
+#blogs {
+  text-align: center;
+  padding: 70px 0 70px 0;
+}
+
+#blogs ul {
+  list-style-position: inside;
+  display: inline-block;
+  text-align: left;
+  font-size: 18px;
 }
 
 .montfont {
