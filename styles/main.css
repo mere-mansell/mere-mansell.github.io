@@ -77,11 +77,20 @@ nav ul li a {
   border-color: rgb(128, 79, 0);
   border-style: solid;
   border-width: 30px;
+  padding: 0 0 0 25px;
+  display: flex;
+}
+
+#me ul, #me p {
+  list-style-type: none;
+  padding: 0 255px 0 0;
+  font-size: 18px;
 }
 
 #me img {
+  display: block;
   height: 400px;
-  display: inline;
+  margin: 40px 0 40px 0;
 }
 
 #blogs {
