@@ -6,6 +6,7 @@ body {
 
 header {
   padding: 25px;
+  border-bottom: solid rgb(128, 79, 0);
 }
 
 #mere {
