@@ -135,3 +135,16 @@ color:rgb(128, 79, 0);
   padding: 0 0 0 300px;
 }
 
+.position {
+  padding: 30px 70px 0 50px;
+}
+
+.position p {
+  font-size: 19px;
+}
+
+.position img {
+  position: relative;
+  left: 450px;
+  top: 30px;
+}
