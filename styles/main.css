@@ -52,6 +52,12 @@ nav ul li a {
   font-size: 28px;
 }
 
+#intro p {
+  position: relative;
+  left: 260px;
+  bottom: 120px;
+}
+
 .smaller-image {
   width: 400px;
 }
