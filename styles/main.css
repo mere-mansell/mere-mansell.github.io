@@ -41,11 +41,6 @@ nav ul li {
 
 }
 
-nav ul li a {
-  color: rgb(128, 79, 0);
-  
-}
-
 #intro {
   background-color: rgb(128, 79, 0);
   color:#f5f5f4;
@@ -100,20 +95,11 @@ nav ul li a {
 
 #blogs ul {
   list-style-position: inside;
+  color:rgb(0, 0, 0); 
   display: inline-block;
   text-align: left;
+  margin: 20px 0;
   font-size: 18px;
-  padding
-}
-
-#blogs ul li {
-  color: black;
-  margin: 20px 0;
-}
-
-#blogs ul li a {
-  color: black;
-  margin: 20px 0;
 }
 
 .montfont {
@@ -151,4 +137,96 @@ color:rgb(128, 79, 0);
   position: relative;
   left: 450px;
   top: 30px;
+}
+
+/* Media Queries */
+@media (max-width:1200px) {
+  
+}
+
+@media (max-width:600px) {
+  
+  header {
+    padding: 25px;
+    border-bottom: solid rgb(128, 79, 0);
+  }
+}
+
+@media (max-width:400px) {
+  
+  header {
+    padding: 25px;
+    border-bottom: solid rgb(128, 79, 0);
+    text-align: center;
+  }
+  
+  #mere {
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(128, 79, 0);
+    display: inline;
+    font-size: 48px;
+    text-align: center;
+  }
+  
+  #blogtitle {
+    font-family: 'Ms Madi', cursive;
+    color: rgb(128, 79, 0);
+    font-size: 48px;
+    margin: 0;
+    padding: 0 0 0 90px;
+    text-align: center;
+  
+  }
+  
+  nav ul {
+    margin: 0;
+    display: inline;
+    padding: 0px 50px 100px 0;
+  }
+  
+  nav ul li {
+    color:rgb(128, 79, 0);
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
+  
+  #intro p {
+    position: relative;
+    left: 0px;
+    bottom: 20px;
+    display: block;
+    text-align: center;
+  }
+  
+  .smaller-image {
+    width: 300px;
+    padding: 0 0 40px 0;
+  }
+
+  #me {
+    border-color: rgb(128, 79, 0);
+    border-style: solid;
+    border-width: 30px;
+    padding: 0 0 0 25px;
+    display: block;
+    text-align: center;
+  }
+  
+  #me ul, #me p {
+    list-style-type: none;
+    padding: 0 0px 0 0;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  #me img {
+    display: block;
+    height: 300px;
+    padding:0 0 40px 25px; 
+    margin: 0px 0 0px 0;
+  }
+ 
 }
