@@ -144,12 +144,80 @@ color:rgb(128, 79, 0);
   
 }
 
-@media (max-width:600px) {
+@media (max-width:768px) {
   
   header {
     padding: 25px;
     border-bottom: solid rgb(128, 79, 0);
   }
+  
+  #mere {
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(128, 79, 0);
+    display: inline;
+    font-size: 48px;
+  }
+  
+  #blogtitle {
+    font-family: 'Ms Madi', cursive;
+    color: rgb(128, 79, 0);
+    font-size: 48px;
+    margin: 0;
+    padding: 0 0 0 90px;
+  
+  }
+  
+  nav ul {
+    margin: 0;
+    display: inline;
+    padding: 0px 10px 100px 0;
+  }
+  
+  nav ul li {
+    color:rgb(128, 79, 0);
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  }
+  
+  #intro p {
+    position: relative;
+    left: 0px;
+    bottom: 20px;
+    display: block;
+    text-align: center;
+  }
+  
+  .smaller-image {
+    width: 400px;
+    padding: 0 0 40px 160px;
+  }
+
+  #me {
+    border-color: rgb(128, 79, 0);
+    border-style: solid;
+    border-width: 30px;
+    padding: 0 0 0 25px;
+    display: block;
+    text-align: center;
+  }
+  
+  #me ul, #me p {
+    list-style-type: none;
+    padding: 0 0px 0 0;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  #me img {
+    display: block;
+    height: 300px;
+    padding:0 0 40px 220px; 
+    margin: 0px 0 0px 0;
+  }
+ 
 }
 
 @media (max-width:400px) {
